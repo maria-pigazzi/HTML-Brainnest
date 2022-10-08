@@ -1,0 +1,39 @@
+/* Not sure how to make this work - also apparently not recommended to use Google Fonts with @font-face?
+See: https://stackoverflow.com/questions/21464837/font-face-with-google-font
+
+@font-face {
+  font-family: "Roboto";
+  src: url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,900;1,300&display=swap');
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,900;1,300&display=swap');
+
+body {
+  background-color: #FFCACA;
+  text-align: center;
+  margin-top: 200px;
+  color: #372948;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+img {
+  margin-top: 20px;
+  border-radius: 8%;
+}
+
+#p-div {
+  border:1px solid #372948;
+}
+
+p {
+  font-size: 16px;
+}
+
+.sea-pic {
+  height: 300px;
+  width: auto;
+}
